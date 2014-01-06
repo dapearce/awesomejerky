@@ -6,10 +6,16 @@ body {
   text-align: center;
 }
 .sasquatch {
+	position:absolute;
 	left:50%;
+	margin-left:-187.5px;
 	width:375px;
 	height:300px;
 	border:10px solid;
 	border-radius:300px / 300px;
 	border-color:#222;
 }
+#footer{
+	position:absolute;
+	text-align:center;
+	}
