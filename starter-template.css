@@ -1,0 +1,15 @@
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 15px;
+  text-align: center;
+}
+.sasquatch {
+	left:50%;
+	width:375px;
+	height:300px;
+	border:10px solid;
+	border-radius:300px / 300px;
+	border-color:#222;
+}
