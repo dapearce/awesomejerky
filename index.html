@@ -1,62 +1,160 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Awesome Jerky</title>
-    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <link rel="stylesheet" href="stylesheets/global.css">
-    <link rel="shortcut icon" href="images\transparentJerkypng.png" type="image/png">
+    <title>Awesome Jerky</title>
+	<link rel="shortcut icon" href="images\transparentJerkypng.png" type="image/png">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="C:\Users\kyle\Documents\GitHub\awesomejerky\dist\css\bootstrap.css">
+
+    <!-- Custom styles for this template -->
+    <link href="jumbotron.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
   </head>
 
   <body>
-    <!--[if lt IE 9]>
-      <p class="browser-warning"><strong><i class="icon-exclamation-sign"></i> Warning</strong> - You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" target="_blank">upgrade your browser</a> to properly view this website.</p>
-    <![endif]-->
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <h1>Awesome Jerky</h1>
-          <p class="lead">
-            Get delicious, healthy beef jerky delivered to your door every month. Different flavors every month. From the best artisan / local jerky makers & butchers we can find. It's $20/month and you can join today to get in on the next batch.  Pay via the 'Buy Now' link on this page and I'll follow up to confirm your shipping details, etc once I receive payment.
-          </p>
-          <p class="lead">For questions email <a href="mailto:founders@awesomejerky.co">founders@awesomejerky.co</a></p>
-          <img class="jerky hidden-xs hidden-sm" src="img/jerky.jpg">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+			 
+          </button>
+          <a class="navbar-brand" href="http://awesomejerky.co">Awesome Jerky</a>
         </div>
-        <div class="col-md-6">
-          <div class="price">
-            $20 / month
-          </div>
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-            <input type="hidden" name="cmd" value="_s-xclick">
-            <input type="hidden" name="hosted_button_id" value="T7NJSWXELX9LG">
-            <table>
-            <tr><td><input type="hidden" name="on0" value="Select your Awesome Jerky Subscription">Select your Awesome Jerky Subscription</td></tr><tr><td><select name="os0">
-              <option value="6 month subscription">6 month subscription $120.00 USD</option>
-              <option value="3 month subscription">3 month subscription $60.00 USD</option>
-              <option value="1 month subscription">1 month subscription $20.00 USD</option>
-              <option value="12 month subscription">12 month subscription $240.00 USD</option>
-            </select> </td></tr>
-            </table>
-            <input type="hidden" name="currency_code" value="USD">
-            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-          </form>
-          <h3>Money Back Satisfaction Guarantee!</h3>
-          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.awesomejerky.co" data-text="Like jerky? Get a months supply of Awesome Jerky!" data-size="large">Tweet</a>
-          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-          <img class="jerky visible-xs visible-sm" src="img/jerky.jpg">
-        </div>
+        <div class="navbar-collapse collapse">
+			<a href="http://technabob.com/blog/2012/06/13/beef-jerky-sasquatch/">
+				<img src="images\beef_jerky_sasquatch.jpg" height="50px" align="right">  </a> 
+          <!--<form class="navbar-form navbar-right" role="form">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-success">Sign in</button>
+          </form>-->
+        </div><!--/.navbar-collapse -->
       </div>
     </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/lib/jquery-2.0.3.min.js"><\/script>')</script>
-    <script src="js/lib/bootstrap.js"></script>
-    <script src="js/global.js"></script>
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1 class="center">Welcome Beef Jerky Lovers</h1>
+        <p class="center">Select for how long and how much Awesome Beef Jerky you want sent to wherever you would like.</p>
+        <!--<p><a class="btn btn-primary btn-lg" role="button" href="http://www.awesomeinc.org/">Learn more &raquo;</a></p>
+		<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		-->
+		
+		<!--<form class="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <input type="hidden" name="hosted_button_id" value="T7NJSWXELX9LG">
+            <table align="center">
+            <input type="hidden" name="on0" value="Select your Awesome Jerky Subscription"><u class="large"><strong>Select Your Subscription</strong></u>
+			
+			<tbody frame="right">
+			<tr><td width="248px">How many orders?</td><td>How many months?</td>
+			
+			<tr><td><select name="os0">
+              
+			  <option value="1 order">1 Order</option>
+              <option value="2 orders">2 Orders</option>
+              <option value="3 orders">3 Orders</option>
+              <option value="4 orders">4 Orders</option>
+              <option value="5 orders">5 Orders</option>
+			</select> 
+			
+			<td><select name="os0">
+              
+			  <option value="1 month subscription">1 month subscription $20.00 USD</option>
+              <option value="2 month subscription">2 month subscription $40.00 USD</option>
+              <option value="3 month subscription">3 month subscription $60.00 USD</option>
+              <option value="4 month subscription">4 month subscription $80.00 USD</option>
+              <option value="5 month subscription">5 month subscription $100.00 USD</option>
+              <option value="6 month subscription">6 month subscription $120.00 USD</option>
+              
+            </select> </td></td></tr>
+            </tbody></table>
+            <input type="hidden" name="currency_code" value="USD" >
+            <input class="paypal" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+          </form>-->
+
+
+		  <form class="center" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+			<input type="hidden" name="cmd" value="_s-xclick">
+			<input type="hidden" name="hosted_button_id" value="HDCTH3AC3PW4C">
+				<table align="center">
+					<tr><td><input type="hidden" name="on0" value="Select your Subscription">Select your Subscription</td></tr><tr><td><select name="os0">
+						<option value="1 Month Subscription">1 Month Subscription $20.00 USD</option>
+						<option value="2 Month Subscription">2 Month Subscription $40.00 USD</option>
+						<option value="3 Month Subscription">3 Month Subscription $60.00 USD</option>
+						<option value="4 Month Subscription">4 Month Subscription $80.00 USD</option>
+						<option value="5 Month Subscription">5 Month Subscription $100.00 USD</option>
+						<option value="6 Month Subscription">6 Month Subscription $120.00 USD</option>
+					</select> </td></tr>
+				</table>
+
+			<input type="hidden" name="currency_code" value="USD">
+			<input class="paypal" type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+			<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+			</form>
+
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Our Story</h2>
+          <p>We started our venture at <a href="http://lexington.startupweekend.org/">StartupWeekend Lexington</a> hosted by <a href="http://www.awesomeinc.org/">Awesome Inc</a>.  Our idea came from Noah Kagan's 24 hour challenge.  <a href="http://www.appsumo.com/sumo-jerky/">This</a> is how Noah did it.  <a href="http://blog.up.co/2013/12/06/trying-to-be-like-noah-kagan-and-succeeding-1k-challenge-complete/?utm_content=buffer94c6d&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer">
+		   <br>This</a> is how we did it.  Our team's main objective was just to sell a lot of beef jerky, and that's what we did.  We wanted to show, just like Noah did, that anyone can make it if they hustle.</p>
+          <p><a class="btn btn-default" href="http://blog.up.co/2013/12/06/trying-to-be-like-noah-kagan-and-succeeding-1k-challenge-complete/?utm_content=buffer94c6d&utm_source=buffer&utm_medium=twitter&utm_campaign=Buffer" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Our Business</h2>
+          <p>Get delicious, healthy beef jerky delivered to your door every month. Different flavours every month. From the best artisan / local jerky makers & butchers we can find. It's $20/month and you can join today to get in on the next batch. Pay via the 'Buy Now' link on this page and I'll follow up to confirm your shipping details, etc once we receive payment.</p>
+          <p><a class="btn btn-default" href="nextMonth.html" role="button">More on This Month &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Like Healthy Snacks?</h2>
+          <p>If you're interested in having healthy snacks sent to your house click the link below and you can have Awesome Snack boxes sent to wherever you like.  We offer 5 or more healthy snacks that are picked by health experts.</p>
+          <p><a class="btn btn-default" href="http://awesomesnack.co/" role="button">Healthy Snacks &raquo;</a></p>
+        </div>
+      </div>
+
+      <hr>
+
+     <!-- <footer>
+        <p>&copy; Company 2013</p>
+      </footer> -->
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
   </body>
 </html>
