@@ -14,3 +14,12 @@ body {
 	border-radius:300px / 300px;
 	border-color:#222;
 }
+.jerky {
+	display:block;
+	margin:0 auto;
+	width:400px;
+	height:310px;
+	border:10px solid;
+	border-radius:300px / 300px;
+	border-color:#222;
+}
